@@ -1,15 +1,5 @@
-
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './style.css'
-
-function App() {
-  return (
-    <div className="container">
-      <h1>DATA LOOM</h1>
-      <p><em>Where stories are woven from data ✨</em></p>
-    </div>
-  )
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+function App() { return <h1>Hello from Data Loom</h1>; }
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
